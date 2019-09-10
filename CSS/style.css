@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: verdana, sans-serif;
+    color:#40514E;
+}
+
+h1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Dancing Script', cursive;
+    font-size: 400%;
+    color: gray;
+    line-height: 2;
+}
+
+h2 {
+    color: gray;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: darkslategray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ 
+p{
+    line-height: 2;
+}
+
+hr{
+    border: dotted rgb(192, 196, 196) 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+a {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #c2cbcc;
+}
+
+.copyright {
+    color: #c2cbcc;
+    font-size: 0.75erem;
+    padding: 20px 0;
+}
+.top-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.top-container p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 100%;
+}
+
+.mypic {
+    border-radius: 100%;
+    width: 20%;
+    height: 15%;
+}
+.background-image {
+    margin: 0;
+    background: url(images/IMG1.jpeg) repeat;
+    width:100%;
+    height:30%;
+    
+ 
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill-img {
+    border-radius: 100%;
+    width: 40%;
+    float: left;
+    margin-right: 30px;
+}
+
+
+.skill-img2 {
+    border-radius: 100%;
+    width: 40%;
+    float: right;
+    margin-left: 30px;
+}
+
+.middle-container {
+    margin: 100px 0;
+}
+
+.intro {
+    width: 50%;
+    margin: auto;
+}
+
+.contact-message {
+    width:40%;
+    margin: 40px auto 60px;
+}
+
+.btn {
+	-moz-box-shadow: 0px 10px 14px -7px #434c4d;
+	-webkit-box-shadow: 0px 10px 14px -7px #434c4d;
+	box-shadow: 0px 10px 14px -7px #434c4d;
+	background-color:#6d7f85;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.btn:hover {
+	background-color:#c2cbcc;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.bottom-container {
+  background-color:  #434c4d;
+  padding: 50px 0 30px;
+}
+
